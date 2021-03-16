@@ -1,2 +1,2 @@
-# Blogger-Twitter-Card
+# Blogger Twitter Card
 Twitter Card for Google Blogger
