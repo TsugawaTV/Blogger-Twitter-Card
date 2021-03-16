@@ -1,0 +1,17 @@
+<meta content='summary' name='twitter:card'/>
+<meta content='@your-account' name='twitter:site'/>
+<meta content='@your-account' name='twitter:creator'/>
+<b:if cond='data:blog.pageName'>
+<meta expr:content='data:blog.pageName' name='twitter:title'/>
+<b:else/>
+<meta expr:content='data:blog.title' name='twitter:title'/>
+</b:if>
+<meta expr:content='data:blog.url' name='twitter:url'/>
+<b:if cond='data:blog.metaDescription'>
+<meta expr:content='data:blog.metaDescription' name='twitter:description'/>
+<b:else/>
+<meta expr:content='data:post.snippet' name='twitter:description'/>
+</b:if>
+<b:if cond='data:blog.postImageUrl'>
+<meta expr:content='data:blog.postImageUrl' name='twitter:image'/>
+</b:if>
